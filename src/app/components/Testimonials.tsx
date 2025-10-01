@@ -60,9 +60,9 @@ const Testimonials = () => {
                   <div className="flex">{renderStars(testimonial.rating)}</div>
                 </div>
               </div>
-              <p className="text-gray-600 mb-4 italic">"{testimonial.comment}"</p>
+              <p className="text-gray-600 mb-4 italic">{testimonial.comment}</p>
               <div className="border-t pt-4 mt-4">
-                <p className="text-gray-500 italic text-lg">"{testimonial.quote}"</p>
+                <p className="text-gray-500 italic text-lg">{testimonial.quote}</p>
                 <p className="text-gray-500 text-sm text-right mt-2">- {testimonial.quoteAuthor}</p>
               </div>
             </div>
