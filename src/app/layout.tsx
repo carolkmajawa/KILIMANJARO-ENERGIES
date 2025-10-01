@@ -6,7 +6,6 @@ export const metadata = {
   title: 'Kilimanjaro Energies',
   description: 'Your trusted local filling station near Mount Kilimanjaro',
 };
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
