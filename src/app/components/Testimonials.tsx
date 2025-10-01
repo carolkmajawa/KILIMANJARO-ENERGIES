@@ -32,9 +32,7 @@ const Testimonials = () => {
 
   const renderStars = (rating: number) => {
     return Array.from({ length: 5 }, (_, i) => (
-      <span key={i} className={i < rating ? "text-yellow-400" : "text-gray-300"}>
-        ★
-      </span>
+      <span key={i} className={i < rating ? "text-yellow-400" : "text-gray-300"}>★</span>
     ));
   };
 
